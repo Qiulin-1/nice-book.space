@@ -1,0 +1,22 @@
+ 
+# 数字操作
+a = 10
+b = 3
+result = a + b  # 将a和b相加
+print(result)  # 输出：13
+ 
+# 字符串操作
+s = "Hello, Python!"
+print(s.lower())  # 转为小写，输出：hello, python!
+print(s.upper())  # 转为大写，输出：HELLO, PYTHON!
+print(s.replace("Python", "World"))  
+# 替换子字符串，输出：Hello, World!
+ 
+# 列表操作
+lst = ["apple", "banana", "cherry"]
+print(lst[0])  # 访问第一个元素，输出：apple
+lst.append("date")  # 在列表末尾添加一个元素
+print(lst)  # 输出：['apple', 'banana', 'cherry', 'date']
+lst.remove("banana")  # 移除列表中的某个元素
+print(lst)  # 输出：['apple', 'cherry', 'date']
+print(len(lst))  # 获取列表的长度，输出：3
